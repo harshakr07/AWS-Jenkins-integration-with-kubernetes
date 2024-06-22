@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/harshakr07/AWS-Jenkins-integration-with-kubernetes.git'
+        git 'https://github.com/shazforiot/nodeapp_test.git'
       }
     }
 
